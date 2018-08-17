@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "JSExcercise";
+}
+
+<h2>JSExcercise</h2>
+
+<div class="container">
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Javascript Excercises</button>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <ul class="nav nav-pills">
+                            <li class="active"><a data-toggle="tab" href="#MathFun">Math Fun</a></li>
+                            <li><a data-toggle="pill" href="#factorial">Factorial</a></li>
+                            <li><a data-toggle="pill" href="#fizzbuzz">Crazy FizzBuzz</a></li>
+                            <li><a data-toggle="pill" href="#palindrome">Palindrome</a></li>
+                        </ul>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="tab-content">
+                        <div id="MathFun" class="tab-pane in active">
+                            <h1>Math Functions</h1>
+                            <p>Put in 5 numbers and this will return the least of these numbers, the greatest of them, the average, the sum, and the product.</p>
+                            <div class="row">
+                                <div class="col-md-4">Number 1 : <input type="number" id="number1" /></div>
+                                <div class="col-md-8"><label id="least"></label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">Number 2 : <input type="number" id="number2" /></div>
+                                <div class="col-md-8"><label id="gretest"></label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">Number 3 : <input type="number" id="number3" /></div>
+                                <div class="col-md-8"><label id="average"></label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">Number 4 : <input type="number" id="number4" /></div>
+                                <div class="col-md-8"><label id="sum"></label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">Number 5 : <input type="number" id="number5" /></div>
+                                <div class="col-md-8"><label id="product"></label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12"><button type="button" id="calculate"class="btn btn-success btn-sm">Calculate</button></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12"><button type="button" id="showcode" class="btn btn-danger btn-sm">Show Code</button></div>
+                            </div>
+
+                        </div>
+
+                        <div id="factorial" class="tab-pane fade">
+                            <h1>Claculate Factorial</h1>
+                            <p>Put in a number and it will return a factorial of this number. (A factorial is a number multipliyed by it's lower numbers I.e. 3 is ((3 * 2) * 1))</p>
+                            <div class="row">
+                                <div class="col-md-4">Number : <input type="number" id="factorialnum" /></div>
+                                <div class="col-md-8"><label id="factorialtext"></label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12"><button type="button" id="factCalculate" class="btn btn-success btn-sm">Calculate</button></div>
+                            </div>
+                        </div>
+                        <div id="fizzbuzz" class="tab-pane fade">
+                            <h1>FIZZBUZZ</h1>
+                            <p>Please enter two numbers and this will determine if they are clean multiples out of 1-100. Fizz means the first number is a clean multiple Buzz means the second and FizzBuzz means both.</p>
+                            <div class="col-lg-6">
+                                <div class="row"><div class="col-md-8">Number 1 : <input type="number" id="fizzvalue" /></div></div>
+                                <div class="row"><div class="col-md-8">Number 2 : <input type="number" id="buzzvalue" /></div></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <label id="fizzbuzztext"></label>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12"><button type="button" id="FizzTheBuzz" class="btn btn-success btn-sm">Fizz the Buzz</button></div>
+                            </div>
+                        </div>
+                        <div id="palindrome" class="tab-pane fade">
+                            <h1>Palindrome Checker</h1>
+                            <p>Please enter a sentence and this will tell you if it is a palindrome. (A word backwards being the same word)</p>
+                            <div class="row">
+                                <div class="col-md-4">String : <input type="text" id="palindromvalue" /></div>
+                                <div class="col-md-8"><label id="palindrometext"></label></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12"><button type="button" id="findpalindrome" class="btn btn-success btn-sm">Find Palaindrome</button></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="close" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script>
+   
+</script>
