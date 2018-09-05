@@ -69,9 +69,8 @@ height: 200px;
     background-color: white;
 }
 #colorlib-main  section.colorlib-about{
-    /*background-color:lightgreen;*/
     color:white;
-    margin-bottom:90px;
+  
 }
 #colorlib-main section.colorlib-services {
     margin-bottom: 90px;
@@ -119,6 +118,51 @@ div.row.row-pt-md div div div p, .modal-body .tab-content div, span  {
 }
 
 .btnStyle:hover:before, .btnStyle:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+div .ih-item a{
+    margin:10px;
+}
+
+.btnStyle2 {
+    background: #999999;
+    border-radius: 2px;
+    color: #000;
+    border: 1px solid #000;
+    position: relative;
+    height: 40px;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+}
+.btnStyle2:hover {
+    background: #fff;
+    color: #fc3c00;
+    border: none;
+}
+
+.btnStyle2:before, .btnStyle2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #000;
+    transition: 400ms ease all;
+}
+
+.btnStyle2:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.btnStyle2:hover:before, .btnStyle2:hover:after {
     width: 100%;
     transition: 800ms ease all;
 }

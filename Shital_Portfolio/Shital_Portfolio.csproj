@@ -162,6 +162,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\flexslider.css" />
     <Content Include="Content\icomoon.css" />
+    <Content Include="Content\ihover.min.css" />
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\owl.theme.default.min.css" />
     <Content Include="Content\style.css" />
@@ -202,6 +203,8 @@
     <Content Include="images\img_bg_2.jpg" />
     <Content Include="images\img_bg_3.jpg" />
     <Content Include="images\loc.png" />
+    <Content Include="images\slide3.PNG" />
+    <Content Include="images\slide4.JPG" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
