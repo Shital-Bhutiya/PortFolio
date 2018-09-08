@@ -187,11 +187,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="images\about.jpg" />
-    <Content Include="images\blog-1.jpg" />
-    <Content Include="images\blog-2.jpg" />
-    <Content Include="images\blog-3.jpg" />
-    <Content Include="images\blog-4.jpg" />
     <Content Include="images\cover_bg_1.jpg" />
     <Content Include="images\img-1.jpg" />
     <Content Include="images\img-2.jpg" />
@@ -201,8 +196,6 @@
     <Content Include="images\img-6.jpg" />
     <Content Include="images\img_bg_1.jpg" />
     <Content Include="images\img_bg_2.jpg" />
-    <Content Include="images\img_bg_3.jpg" />
-    <Content Include="images\loc.png" />
     <Content Include="images\slide3.PNG" />
     <Content Include="images\slide4.JPG" />
     <Content Include="Scripts\bootstrap.js" />
@@ -210,7 +203,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Files\js udamy.pdf" />
     <Content Include="Files\resume.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\google_map.js" />
