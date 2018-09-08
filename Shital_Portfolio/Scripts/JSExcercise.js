@@ -100,7 +100,7 @@
                 $('#palindrometext').text(str + ' is not palindrome');
         }
         else {
-            $('#palindrometext').text("Enter a String");
+            $('#palindrometext').text("Enter text");
         }
     })
 
@@ -110,21 +110,8 @@
         $('#paliCode').toggle();
     })
 
-    // closing events
-    $('#close').click(() => {
-       close();
-    })
-    $('modal').click(() => {
-        close();
-    });
-
-    // Showing work 
+    //show work
     $("#btnViewPort").click(function () {
         $(".click-work").click();
     });
 })
-
-function close() {
-    $('.modal-body').find('input[type=text], input[type=number]').val("");
-    $('.modal-body .tab-content .tab-pane div div').find('label').text("");
-}

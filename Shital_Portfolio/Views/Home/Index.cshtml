@@ -87,12 +87,6 @@
                             <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="far fa-heart"></i> by Shtial Bhutiya</a>
                         </small>
                     </p>
-                    <ul>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    </ul>
                 </div>
 
             </aside>
@@ -109,7 +103,7 @@
                                             <div class="slider-text-inner js-fullheight">
                                                 <div class="desc">
                                                     <h1 style="color:black">Hi! <br>I'm Shital</h1>
-                                                    <p><a target="_blank" href="~/Files/js udamy.pdf"><button class="btnStyle">DownLoad CV</button></a></p>
+                                                    <p><a target="_blank" href="~/Files/resume.pdf"><button class="btnStyle">DownLoad CV</button></a></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -210,8 +204,6 @@
                     </div>
                 </section>
 
-
-
                 <section class="colorlib-services" data-section="services">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -299,7 +291,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="container">
-                                    <div class="col-md-offset-3 col-md-5"><button type="button" id="modal"class="btn btn-warning btn-lg" data-toggle="modal" data-target="#myModal">Javascript Excercises</button></div>
+                                    <div class="col-md-offset-3 col-md-5"><button type="button" id="modal" class="btn btn-warning btn-lg" onclick="close()" data-toggle="modal" data-target="#myModal">Javascript Excercises</button></div>
                                     <!-- Modal -->
                                     <div id="myModal" class="modal fade" role="dialog">
                                         <div class="modal-dialog modal-lg">
@@ -490,7 +482,7 @@
                                                                                         $('#palindrometext').text(str + ' is not palindrome');
                                                                                 }
                                                                                 else {
-                                                                                    $('#palindrometext').text("Enter a String");
+                                                                                    $('#palindrometext').text("Enter text");
                                                                                 }
                                                                             })
                                                                         </pre>
@@ -510,7 +502,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <section class="colorlib-work" data-section="work">
                     <div class="colorlib-narrow-content">
                         <div class="row">
@@ -541,7 +533,7 @@
                                             <h3><a href="work.html">Classic Arcade Game</a></h3>
                                             <span>OO Javascript, CSS, HTML</span>
                                             <p class="icon">
-                                               <a href="https://shitalsb.github.io/ClassicArcadeGame/"><button class="btnStyle2">Demo</button></a>
+                                                <a href="https://shitalsb.github.io/ClassicArcadeGame/"><button class="btnStyle2">Demo</button></a>
                                             </p>
                                         </div>
                                     </div>
@@ -635,7 +627,7 @@
                                         <i class="fab fa-github"></i>
                                     </div>
                                     <div class="colorlib-text">
-                                       <p> <a href="https://github.com/ShitalSB">www.github.com/ShitalSB</a></p>
+                                        <p> <a href="https://github.com/ShitalSB">www.github.com/ShitalSB</a></p>
                                     </div>
                                 </div>
                                 <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
@@ -664,7 +656,7 @@
                                                 <textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
                                             </div>
                                             <div class="form-group">
-                                                <input type="submit" class="btn btn-default"   value="Send Message">
+                                                <input type="submit" class="btn btn-default" value="Send Message">
                                             </div>
                                         </form>
                                     </div>
@@ -702,6 +694,18 @@
 
     <script>
         SyntaxHighlighter.all();
+        function close() {
+           
+        }
+
+        $('#myModal').on('hidden.bs.modal', function (e) {
+            $('.modal-body').find('input[type=text], input[type=number]').val("");
+            $('.modal-body .tab-content .tab-pane div div').find('label').text("");
+            $('#paliCode').hide();
+            $('#fizzCode').hide();
+            $('#factCode').hide();
+            $('#MathCode').hide();
+        })
     </script>
 </body>
 </html>

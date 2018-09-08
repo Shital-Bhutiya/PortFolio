@@ -1,8 +1,9 @@
 ﻿@import url('style.css');
+
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color:black;
+    background-color: black;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,10 +23,9 @@ body {
 input,
 select,
 textarea {
-   
-    margin:10px 0 10px 0;
+    margin: 10px 0 10px 0;
     border-radius: 5px;
-    font-family:'Times New Roman';
+    font-family: 'Times New Roman';
 }
 
 .container div.col-md-4.tall {
@@ -57,30 +57,37 @@ textarea {
 .modal-body .tab-content div h1 {
     color: green;
 }
-.modal-body .tab-content div div #fizzbuzztext{
-width: 250px;
-overflow-y: scroll;
-height: 200px;
+
+.modal-body .tab-content div div #fizzbuzztext {
+    width: 250px;
+    overflow-y: scroll;
+    height: 200px;
 }
-#colorlib-hero  div  ul.slides li.flex-active-slide  div.container-fluid  div div div{
-    color:red;
+
+#colorlib-hero div ul.slides li.flex-active-slide div.container-fluid div div div {
+    color: red;
 }
+
 .colorlib-about div div .col-md-3 div, .row.row-pt-md div div {
     background-color: white;
 }
-#colorlib-main  section.colorlib-about{
-    color:white;
-  
+
+#colorlib-main section.colorlib-about {
+    color: white;
 }
+
 #colorlib-main section.colorlib-services {
     margin-bottom: 90px;
 }
-body, h1, h2,h4, h5,#colorlib-main  section.colorlib-skills  div  div div div h3{
-    color:white;
+
+body, h1, h2, h4, h5, #colorlib-main section.colorlib-skills div div div div h3 {
+    color: white;
 }
-div.row.row-pt-md div div div p, .modal-body .tab-content div, span  {
+
+div.row.row-pt-md div div div p, .modal-body .tab-content div, span {
     color: black;
 }
+
 .btnStyle {
     color: #000;
     border: 1px solid #000;
@@ -99,31 +106,31 @@ div.row.row-pt-md div div div p, .modal-body .tab-content div, span  {
         border: none;
     }
 
-.btnStyle:before, .btnStyle:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 2px;
-    width: 0;
-    background: #000;
-    transition: 400ms ease all;
-}
+    .btnStyle:before, .btnStyle:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 2px;
+        width: 0;
+        background: #000;
+        transition: 400ms ease all;
+    }
 
-.btnStyle:after {
-    right: inherit;
-    top: inherit;
-    left: 0;
-    bottom: 0;
-}
+    .btnStyle:after {
+        right: inherit;
+        top: inherit;
+        left: 0;
+        bottom: 0;
+    }
 
-.btnStyle:hover:before, .btnStyle:hover:after {
-    width: 100%;
-    transition: 800ms ease all;
-}
+    .btnStyle:hover:before, .btnStyle:hover:after {
+        width: 100%;
+        transition: 800ms ease all;
+    }
 
-div .ih-item a{
-    margin:10px;
+div .ih-item a {
+    margin: 10px;
 }
 
 .btnStyle2 {
@@ -138,31 +145,32 @@ div .ih-item a{
     transition: 800ms ease all;
     outline: none;
 }
-.btnStyle2:hover {
-    background: #fff;
-    color: #fc3c00;
-    border: none;
-}
 
-.btnStyle2:before, .btnStyle2:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 2px;
-    width: 0;
-    background: #000;
-    transition: 400ms ease all;
-}
+    .btnStyle2:hover {
+        background: #fff;
+        color: #fc3c00;
+        border: none;
+    }
 
-.btnStyle2:after {
-    right: inherit;
-    top: inherit;
-    left: 0;
-    bottom: 0;
-}
+    .btnStyle2:before, .btnStyle2:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 2px;
+        width: 0;
+        background: #000;
+        transition: 400ms ease all;
+    }
 
-.btnStyle2:hover:before, .btnStyle2:hover:after {
-    width: 100%;
-    transition: 800ms ease all;
-}
+    .btnStyle2:after {
+        right: inherit;
+        top: inherit;
+        left: 0;
+        bottom: 0;
+    }
+
+    .btnStyle2:hover:before, .btnStyle2:hover:after {
+        width: 100%;
+        transition: 800ms ease all;
+    }
