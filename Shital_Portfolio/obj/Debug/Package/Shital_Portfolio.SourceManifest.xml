@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\C#Projects\Shital_Portfolio\Shital_Portfolio\obj\Debug\Package\PackageTmp" />
+  <setAcl path="C:\C#Projects\Shital_Portfolio\Shital_Portfolio\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\C#Projects\Shital_Portfolio\Shital_Portfolio\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

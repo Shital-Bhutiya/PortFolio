@@ -187,13 +187,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="images\about.jpeg" />
     <Content Include="images\cover_bg_1.jpg" />
     <Content Include="images\img-1.jpg" />
+    <Content Include="images\img-10.jpg" />
+    <Content Include="images\img-11.JPG" />
+    <Content Include="images\img-12.jpg" />
     <Content Include="images\img-2.jpg" />
     <Content Include="images\img-3.jpg" />
     <Content Include="images\img-4.jpg" />
     <Content Include="images\img-5.jpg" />
     <Content Include="images\img-6.jpg" />
+    <Content Include="images\img-7.jpg" />
+    <Content Include="images\img-8.JPG" />
+    <Content Include="images\img-9.JPG" />
     <Content Include="images\img_bg_1.jpg" />
     <Content Include="images\img_bg_2.jpg" />
     <Content Include="images\slide3.PNG" />
@@ -203,7 +210,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Files\resume.pdf" />
+    <Content Include="Files\resume_Shital_Bhutiya.pdf" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\google_map.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -253,7 +261,6 @@
     <Content Include="Scripts\SyntaxHighlighter\shBrushXml.js" />
     <Content Include="Scripts\SyntaxHighlighter\shCore.js" />
     <Content Include="Scripts\SyntaxHighlighter\shLegacy.js" />
-    <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

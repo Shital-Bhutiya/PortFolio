@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="shital-001-site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\C\#Projects\\Shital_Portfolio\\Shital_Portfolio\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\C\#Projects\\Shital_Portfolio\\Shital_Portfolio\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

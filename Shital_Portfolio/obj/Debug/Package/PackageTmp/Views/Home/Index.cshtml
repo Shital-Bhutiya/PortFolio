@@ -1,0 +1,761 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shital Bhutiya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="~/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <!-- Icomoon Icon Fonts-->
+    <link href="~/Content/icomoon.css" rel="stylesheet" />
+    <!-- Bootstrap  -->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <!-- Flexslider  -->
+    <link href="~/Content/flexslider.css" rel="stylesheet" />
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <!-- Owl Carousel -->
+    <link href="~/Content/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/Content/owl.theme.default.min.css" rel="stylesheet" />
+    <!-- Theme style  -->
+    <link href="~/Content/style.css" rel="stylesheet" />
+
+    <link href="~/Content/Site.css" rel="stylesheet" />
+
+    <!-- Modernizr JS -->
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="~/Scripts/respond.min.js"></script>
+        <![endif]-->
+    <link href="~/Content/SyntaxHighlighter/shCore.css" rel="stylesheet" />
+    <link href="~/Content/SyntaxHighlighter/shThemeFadeToGrey.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+            <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+                <div class="text-center">
+                    <div class="author-img" style="background-image: url('../../images/about.jpeg');"></div>
+                    <h1 id="colorlib-logo"><a href="index.html">Shital Bhutiya</a></h1>
+                    <span class="position"><a href="#">Front end developer</a> in Winnipeg</span>
+                </div>
+                <nav id="colorlib-main-menu" role="navigation" class="navbar">
+                    <div id="navbar" class="collapse">
+                        <ul>
+                            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+                            <li><a href="#" data-nav-section="about">About</a></li>
+                            <li><a href="#" data-nav-section="services">Tools</a></li>
+                            <li><a href="#" class="click-work" data-nav-section="work">Work</a></li>
+                            <li><a href="#" data-nav-section="contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="colorlib-footer">
+                    <p>
+                        <small>
+                            &copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="far fa-heart"></i> by Shtial Bhutiya
+                        </small>
+                    </p>
+                </div>
+
+            </aside>
+
+            <div id="colorlib-main">
+                <section id="colorlib-hero" class="js-fullheight" data-section="home">
+                    <div class="flexslider js-fullheight">
+                        <ul class="slides">
+                            <li style="background-image: url('../../images/img_bg_1.jpg');">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner js-fullheight">
+                                                <div class="desc">
+                                                    <h1 style="color:black">Hi! <br>I'm Shital</h1>
+                                                    <p><a target="_blank" href="~/Files/resume_Shital_Bhutiya.pdf""><button class="btnStyle">DownLoad CV</button></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <li style="background-image: url('../../images/img_bg_2.jpg');">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 js-fullheight slider-text">
+                                            <div class="slider-text-inner">
+                                                <div class="desc">
+                                                    <h1 style="color:black">I am <br>a Junior Software Developer.</h1>
+                                                    <p><button data-nav-section="work" id="btnViewPort" class="btnStyle">View Portfolio</button></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="background-image: url('../../images/slide3.PNG');">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner js-fullheight">
+                                                <div class="desc">
+                                                    <h1>"Good software, like wine, takes time."</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="background-image: url('../../images/slide4.JPG');">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner js-fullheight">
+                                                <div class="desc">
+                                                    <h1>“Think Twice, Code Once!”</h1>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+                <section class="colorlib-about" data-section="about">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="col-md-12">
+                                        <div class="about-desc">
+                                            <span class="heading-meta">About Me</span>
+                                            <h2 class="colorlib-heading">Who Am I?</h2>
+                                            <p>Welcome to my site, I'm<strong> Shital Bhutiya</strong> who is invariably focussed on her goals and love programming.</p>
+                                            <p> I am always willingness to learn something new and always happy to help people.I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to literally change the world. That's why I’m excited to make a big impact at a high growth company. I love spending time on fixing little details and optimizing web apps. </p>
+                                            <p>Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</p>
+                                            <p>I have knowledge about Javascript, React, Angular, HTML, CSS, Service Worker, and Jasmine. I also know some of the tools and libraries like bootstrape, materialize, Google Firebase. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="services color-1">
+                                            <span class="icon2"><i class="fab fa-galactic-republic"></i></span>
+                                            <h3>Focussed</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="services color-2">
+                                            <span class="icon2"><i class="fas fa-cogs"></i></span>
+                                            <h3>Hard Working</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+                                        <div class="services color-3">
+                                            <span class="icon2"><i class="fas fa-users"></i></span>
+                                            <h3>Team Player</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+                                        <div class="services color-4">
+                                            <span class="icon2"><i class="fas fa-user-plus"></i></span>
+                                            <h3>Positive Attitude</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-services" data-section="services">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">What I do?</span>
+                                <h2 class="colorlib-heading">Here are some tools that I learned</h2>
+                            </div>
+                        </div>
+                        <div class="row row-pt-md" data-animate-effect="fadeInRight">
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-1">
+                                    <span class="icon">
+                                        <i class="fas fa-code-branch"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>Git</h3>
+                                        <p>It's a version control system for tracking changes in computer files.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-3">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>Github</h3>
+                                        <p>GitHub is a web-based hosting service for version control using Git</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box" data-animate-effect="fadeInRight">
+                                <div class="services color-2">
+                                    <span class="icon">
+                                        <i class="fab fa-gulp"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>Gulp</h3>
+                                        <p>For automation of time-consuming and repetitive tasks in web development</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-4">
+                                    <span class="icon">
+                                        <i class="fab fa-gitlab"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>Gitlab</h3>
+                                        <p>GitLab is a web-based Git-repository developed by GitLab Inc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-5">
+                                    <span class="icon">
+                                        <i class="fab fa-markdown"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>Markdown</h3>
+                                        <p>a lightweight markup language with plain text formatting syntax.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-6">
+                                    <span class="icon">
+                                        <i class="fab fa-slack"></i>
+                                    </span>
+                                    <div class="desc">
+                                        <h3>Slack</h3>
+                                        <p>Slack is an amazing app that we all use for team communication.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div id="colorlib-counter" class="colorlib-counters" style="background-image: url('../../images/cover_bg_1.jpg');" data-stellar-background-ratio="0.5">
+                    <div class="overlay"></div>
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="container">
+                                    <div class="col-md-offset-3 col-md-5"><button type="button" id="modal" class="btn btn-warning btn-lg" onclick="close()" data-toggle="modal" data-target="#myModal">Javascript Excercises</button></div>
+                                    <!-- Modal -->
+                                    <div id="myModal" class="modal fade" role="dialog">
+                                        <div class="modal-dialog modal-lg">
+
+                                            <!-- Modal content-->
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="btnStyle close" data-dismiss="modal">&times;</button>
+                                                    <h4 class="modal-title">
+                                                        <ul class="nav nav-pills">
+                                                            <li class="active"><a data-toggle="tab" href="#MathFun">Math Fun</a></li>
+                                                            <li><a data-toggle="pill" href="#factorial">Factorial</a></li>
+                                                            <li><a data-toggle="pill" href="#fizzbuzz">Crazy FizzBuzz</a></li>
+                                                            <li><a data-toggle="pill" href="#palindrome">Palindrome</a></li>
+                                                        </ul>
+                                                    </h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="tab-content">
+                                                        <div id="MathFun" class="tab-pane in active">
+                                                            <h1>Math Functions</h1>
+                                                            <p>Put in 5 numbers and this will return the least of these numbers, the greatest of them, the average, the sum, and the product.</p>
+                                                            <div class="row">
+                                                                <div class="col-md-4">Number 1 : <input type="number" id="number1" /></div>
+                                                                <div class="col-md-8"><label id="least"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4">Number 2 : <input type="number" id="number2" /></div>
+                                                                <div class="col-md-8"><label id="gretest"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4">Number 3 : <input type="number" id="number3" /></div>
+                                                                <div class="col-md-8"><label id="average"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4">Number 4 : <input type="number" id="number4" /></div>
+                                                                <div class="col-md-8"><label id="sum"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-4">Number 5 : <input type="number" id="number5" /></div>
+                                                                <div class="col-md-8"><label id="product"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-5"><button type="button" id="calculate" class="btn btn-sm btnStyle">Calculate</button></div>
+                                                                <div class="col-md-offset-1 col-md-5"><button type="button" id="scMath" class="btn btn-sm btnStyle">Show Code</button></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div id="MathCode" class="col-md-12">
+                                                                    <pre class="brush: js">
+                                                                $('#calculate').click(() => {
+                                                                        var num1 = Number($('#number1').val());
+                                                                        var num2 = Number($('#number2').val());
+                                                                        var num3 = Number($('#number3').val());
+                                                                        var num4 = Number($('#number4').val());
+                                                                        var num5 = Number($('#number5').val());
+                                                                        var sum, avarage, product, greatest, least;
+                                                                        if (num1 != null && num2 !== 0 && num3 !== 0 && num4 != 0 && num5 != 0) {
+                                                                            sum = num1 + num2 + num3 + num4 + num5;
+                                                                            avarage = sum / 5;
+                                                                            product = num1 * num2 * num3 * num4 * num5;
+                                                                            greatest = Math.max(num1, num2, num3, num4, num5);
+                                                                            least = Math.min(num1, num2, num3, num4, num5);
+
+                                                                            $('#sum').text("The Sum of the numbers is " + sum);
+                                                                            $('#average').text("The Avarage of the numbers is " + avarage);
+                                                                            $('#product').text("The product of the numbers is " + product);
+                                                                            $('#least').text("The least of the numbers is " + least);
+                                                                            $('#gretest').text("The Greatest of the numbers is " + greatest);
+                                                                        }
+                                                                        else {
+                                                                            $('#least').text("Please enter all numbers");
+                                                                            $('#average').text("");
+                                                                            $('#product').text("");
+                                                                            $('#sum').text("");
+                                                                            $('#gretest').text("")
+                                                                        }
+                                                                    })</pre>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div id="factorial" class="tab-pane fade">
+                                                            <h1>Claculate Factorial</h1>
+                                                            <p>Put in a number and it will return a factorial of this number. (A factorial is a number multipliyed by it's lower numbers I.e. 3 is ((3 * 2) * 1))</p>
+                                                            <div class="row">
+                                                                <div class="col-md-4">Number : <input type="number" id="factorialnum" /></div>
+                                                                <div class="col-md-8"><label id="factorialtext"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-5"><button type="button" id="factCalculate" class="btn btn-sm btnStyle">Calculate</button></div>
+                                                                <div class="col-md-offset-3 col-md-2"><button type="button" id="scFact" class="btn btn-sm btnStyle">Show Code</button></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div id="factCode" class="col-md-12">
+                                                                    <pre class="brush: js">
+                                                                    $('#factCalculate').click(() => {
+                                                                            const num = Number($('#factorialnum').val())
+                                                                            var fact = 1;
+                                                                            console.log(num);
+                                                                            if (num >= 0) {
+                                                                                for (let i = 1; i <= num; i++) {
+                                                                                    fact = fact * i;
+                                                                                }
+                                                                                $('#factorialtext').text('The factorial of ' + num + " is " + fact);
+                                                                            }
+                                                                            else {
+                                                                                $('#factorialtext').text("Enter a number");
+                                                                            }
+                                                                        })
+                                                                    </pre>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div id="fizzbuzz" class="tab-pane fade">
+                                                            <h1>FIZZBUZZ</h1>
+                                                            <p>Please enter two numbers and this will determine if they are clean multiples out of 1-100. Fizz means the first number is a clean multiple Buzz means the second and FizzBuzz means both.</p>
+                                                            <div class="col-md-6">
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        Number 1 : <input type="number" id="fizzvalue" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-md-12">
+                                                                        Number 2 : <input type="number" id="buzzvalue" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div> <label id="fizzbuzztext"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-5"><button type="button" id="FizzTheBuzz" class="btn btn-sm btnStyle">Fizz the Buzz</button></div>
+                                                                <div class="col-md-offset-3 col-md-2"><button type="button" id="scFizzBuzz" class="btn btn-sm btnStyle">Show Code</button></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div id="fizzCode" class="col-md-12">
+                                                                    <pre class="brush: js">
+                                                                        $('#FizzTheBuzz').click(() => {
+                                                                            var fizz = Number($('#fizzvalue').val());
+                                                                            var buzz = Number($('#buzzvalue').val());
+                                                                            var htmlString = "";
+                                                                            if (fizz > 0 && buzz > 0) {
+                                                                                for (let i = 1; i <= 100; i++) {
+                                                                                    if (i % fizz == 0 && i % buzz == 0) {
+                                                                                        htmlString += "FizzBuzz, ";
+                                                                                    } else if (i % fizz == 0) {
+                                                                                        htmlString += "Fizz, ";
+
+                                                                                    } else if (i % buzz == 0) {
+                                                                                        htmlString += "Buzz, ";
+
+                                                                                    } else {
+                                                                                        htmlString += i + ", ";
+                                                                                    }
+                                                                                }
+                                                                                $("#fizzbuzztext").html(htmlString.substring(0, htmlString.length - 2));
+                                                                            }
+                                                                            else {
+                                                                                $("#fizzbuzztext").text("Enter numbers");
+                                                                            }
+                                                                        })
+                                                                    </pre>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div id="palindrome" class="tab-pane fade">
+                                                            <h1>Palindrome Checker</h1>
+                                                            <p>Please enter a sentence and this will tell you if it is a palindrome. (A word backwards being the same word)</p>
+                                                            <div class="row">
+                                                                <div class="col-md-4">String : <input type="text" id="palindromvalue" /></div>
+                                                                <div class="col-md-8"><label id="palindrometext"></label></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-5"><button type="button" id="findpalindrome" class="btn btn-sm btnStyle">Find Palaindrome</button></div>
+                                                                <div class="col-md-offset-3 col-md-2"><button type="button" id="scPali" class="btn btn-sm btnStyle">Show Code</button></div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div id="paliCode" class="col-md-12">
+                                                                    <pre class="brush: js">
+                                                                        $('#findpalindrome').click(() => {
+                                                                                var str = $('#palindromvalue').val();
+                                                                                if (str != "") {
+                                                                                    var reverse = str.split("").reverse().join("");
+                                                                                    if (reverse === str)
+                                                                                        $('#palindrometext').text(str + ' is palindrome');
+                                                                                    else
+                                                                                        $('#palindrometext').text(str + ' is not palindrome');
+                                                                                }
+                                                                                else {
+                                                                                    $('#palindrometext').text("Enter text");
+                                                                                }
+                                                                            })
+                                                                        </pre>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" id="close" class="btn btnStyle" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="colorlib-work" data-section="work">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">My Work</span>
+                                <h2 class="colorlib-heading animate-box">Recent Work</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="project" style="background-image: url('../../images/img-1.jpg');
+">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">Memory Game</a></h3>
+                                            <span>Vanilla Javascript, HTML, CSS</span>
+                                            <p class="icon">
+                                                <a href="https://shitalsb.github.io/Memory-Game/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-2.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">Classic Arcade Game</a></h3>
+                                            <span>OO Javascript, CSS, HTML</span>
+                                            <p class="icon">
+                                                <a href="https://shitalsb.github.io/ClassicArcadeGame/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+                                <div class="project" style="background-image: url('../../images/img-3.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">Pixel Art Maker</a></h3>
+                                            <span>Javascript, HTML, CSS and Google Fonts Library</span>
+                                            <p class="icon">
+                                                <a href="https://shitalsb.github.io/Pixel-art-maker/">
+                                                    <button class="btnStyle2">Demo</button>
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+                                <div class="project" style="background-image: url('../../images/img-4.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">Tic tec toe</a></h3>
+                                            <span>Javascript, HTML, CSS</span>
+                                            <p class="icon">
+                                                <a href="https://shitalsb.github.io/tic-tec-toe/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="project" style="background-image: url('../../images/img-5.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">My Read</a></h3>
+                                            <span>React, HTML, CSS </span>
+                                            <p class="icon">
+                                                <a href="https://eager-darwin-91e29e.netlify.com/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-6.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">Shopping Cart</a></h3>
+                                            <span>React, HTML, CSS</span>
+                                            <p class="icon">
+                                                <a href="https://boring-carson-03abca.netlify.com/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-7.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">Unit Converter</a></h3>
+                                            <span>Javascript, HTML, CSS, Vanilla Tilt</span>
+                                            <p class="icon">
+                                                <a href="https://wonderful-stonebraker-91dd5e.netlify.com"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-8.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">React todolist</a></h3>
+                                            <span>Javascript, HTML, CSS, React</span>
+                                            <p class="icon">
+                                                <a href="https://suspicious-goldberg-379e59.netlify.com/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-9.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">restaurants Rating App</a></h3>
+                                            <span>Javascript, HTML, CSS, React, Material-ui</span>
+                                            <p class="icon">
+                                                <a href="https://fervent-sinoussi-23fa66.netlify.com/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-10.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">My Book read</a></h3>
+                                            <span>Javascript, HTML, CSS, React</span>
+                                            <p class="icon">
+                                                <a href="https://eager-darwin-91e29e.netlify.com/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-12.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">MVC - Book Collection</a></h3>
+                                            <span>Javascript-MVC, HTML, CSS, Google-fonts</span>
+                                            <p class="icon">
+                                                <a href="https://stoic-johnson-2727d1.netlify.com/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="project" style="background-image: url('../../images/img-11.jpg');">
+                                    <div class="desc">
+                                        <div class="con">
+                                            <h3><a href="work.html">React - with fetch</a></h3>
+                                            <span>Javascript, HTML, CSS, React - unsplash.com</span>
+                                            <p class="icon">
+                                                <a href="https://cocky-varahamihira-9cfc0d.netlify.com/"><button class="btnStyle2">Demo</button></a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="colorlib-contact" data-section="contact">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Get in Touch</span>
+                                <h2 class="colorlib-heading">Contact</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="colorlib-icon">
+                                        <i class="fas fa-at"></i>
+                                    </div>
+                                    <div class="colorlib-text">
+                                        <p><a href="mailto:ssbhutiya@gmail.com">ssbhutiya@gmail.com</a></p>
+                                    </div>
+                                </div>
+                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="colorlib-icon">
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                    <div class="colorlib-text">
+                                        <p><a href="http://linkedin.com/in/shital-bhutiya">www.linkedin.com/in/shital-bhutiya</a></p>
+                                    </div>
+                                </div>
+                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="colorlib-icon">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="colorlib-text">
+                                        <p> <a href="https://github.com/ShitalSB">www.github.com/ShitalSB</a></p>
+                                    </div>
+                                </div>
+                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="colorlib-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="colorlib-text">
+                                        <p><a href="tel://">+1 431-335-7294</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div><!-- end:colorlib-main -->
+        </div><!-- end:container-wrap -->
+    </div><!-- end:colorlib-page -->
+    <!-- jQuery -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="~/Scripts/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="~/Scripts/jquery.waypoints.min.js"></script>
+    <!-- Flexslider -->
+    <script src="~/Scripts/jquery.flexslider-min.js"></script>
+    <!-- Owl carousel -->
+    <script src="~/Scripts/owl.carousel.min.js"></script>
+    <!-- Counters -->
+    <script src="~/Scripts/jquery.countTo.js"></script>
+
+    <script src="~/Scripts/SyntaxHighlighter/shCore.js"></script>
+    <!-- MAIN JS -->
+
+    <script src="~/Scripts/JSExcercise.js"></script>
+
+    <script src="~/Scripts/main.js"></script>
+
+    <script src="~/Scripts/SyntaxHighlighter/shBrushJScript.js"></script>
+
+    <script>
+        SyntaxHighlighter.all();
+        
+        $('#myModal').on('hidden.bs.modal', function (e) {
+            $('.modal-body').find('input[type=text], input[type=number]').val("");
+            $('.modal-body .tab-content .tab-pane div div').find('label').text("");
+            $('#paliCode').hide();
+            $('#fizzCode').hide();
+            $('#factCode').hide();
+            $('#MathCode').hide();
+        })
+    </script>
+</body>
+</html>
+
